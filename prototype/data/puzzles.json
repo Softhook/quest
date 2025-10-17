@@ -1,0 +1,22 @@
+{
+  "puzzles": [
+    {
+      "id": "torch_sequence",
+      "type": "logic",
+      "prompt": "Four torches flicker in a row. The pattern goes bright, dim, bright, ?. What comes next?",
+      "options": ["Bright", "Dim", "Out"],
+      "answer": "Dim",
+      "successText": "The final torch flares, revealing a hidden pouch of coins.",
+      "failureText": "The torches sputter out. Try again after catching your breath."
+    },
+    {
+      "id": "riddle_door",
+      "type": "multiple-choice",
+      "prompt": "I have keys but no locks. I make sounds but no throat. What am I?",
+      "options": ["A harp", "A treasure chest", "A whisper"],
+      "answer": "A harp",
+      "successText": "The runes glow warmly as a secret compartment opens.",
+      "failureText": "The runes flash red. Perhaps another answer?"
+    }
+  ]
+}

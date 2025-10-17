@@ -1,0 +1,40 @@
+{
+  "monsters": [
+    {
+      "id": "goblin",
+      "name": "Goblin Sneak",
+      "level": 1,
+      "life": 3,
+      "attack": 2,
+      "image": "",
+      "description": "A crafty goblin with patched armor and a wicked grin."
+    },
+    {
+      "id": "rat",
+      "name": "Giant Rat",
+      "level": 1,
+      "life": 2,
+      "attack": 1,
+      "image": "",
+      "description": "A squealing rat the size of a dog, baring needle teeth."
+    },
+    {
+      "id": "skeleton",
+      "name": "Restless Skeleton",
+      "level": 2,
+      "life": 4,
+      "attack": 3,
+      "image": "",
+      "description": "Bones clatter as it raises a rusted sword to challenge the heroes."
+    },
+    {
+      "id": "bossGoblin",
+      "name": "Goblin King",
+      "level": 3,
+      "life": 10,
+      "attack": 4,
+      "image": "",
+      "description": "The Goblin King lounges on a pile of trinkets, ready to defend his hoard."
+    }
+  ]
+}

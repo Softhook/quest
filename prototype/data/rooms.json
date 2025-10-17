@@ -1,0 +1,46 @@
+{
+  "rooms": [
+    {
+      "id": "start",
+      "name": "Starting Chamber",
+      "type": "start",
+      "description": "A gentle glow fills the room and a friendly sprite waves you forward.",
+      "possibleExits": ["north", "east"]
+    },
+    {
+      "id": "empty",
+      "name": "Quiet Hall",
+      "type": "empty",
+      "description": "Dusty stones and faded murals cover the walls. It is eerily quiet.",
+      "possibleExits": ["north", "south", "east", "west"]
+    },
+    {
+      "id": "treasure",
+      "name": "Treasure Alcove",
+      "type": "treasure",
+      "description": "A sparkling chest rests on a pedestal. Enchanted vines curl around it.",
+      "possibleExits": ["north", "west"]
+    },
+    {
+      "id": "monster",
+      "name": "Beast Lair",
+      "type": "monster",
+      "description": "Scratch marks gouge the stone. Something hungry is close by.",
+      "possibleExits": ["south", "east"]
+    },
+    {
+      "id": "puzzle",
+      "name": "Puzzle Nook",
+      "type": "puzzle",
+      "description": " glowing runes shimmer above a stone plinth, inviting a clever mind.",
+      "possibleExits": ["north", "south"]
+    },
+    {
+      "id": "special",
+      "name": "Fountain of Stories",
+      "type": "special",
+      "description": "A fountain whispers tales of heroes. Drinking here might restore hope.",
+      "possibleExits": ["east", "west"]
+    }
+  ]
+}
